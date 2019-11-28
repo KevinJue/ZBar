@@ -32,7 +32,7 @@ using namespace zbar;
 // Obj-C wrapper for ZBar result types
 
 @interface ZBarSymbolSet
-    : NSObject <NSFastEnumeration>
+    : NSObject <NSFastEnumeration, NSCopying>
 {
     const zbar_symbol_set_t *set;
     BOOL filterSymbols;
