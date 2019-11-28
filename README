@@ -15,6 +15,13 @@ Check the ZBar home page for the latest release, mailing lists, etc.
 
 License information can be found in 'COPYING'.
 
+WHY THIS FORK
+====================
+Fatal Exception: NSGenericException
+*** Collection <ZBarSymbolSet: 0x2839a9000> was mutated while being enumerated.
+
+This error make at many time, crash my app, thanks to https://stackoverflow.com/questions/33207725/crash-on-zbarsymbolset solution, 
+it doesn't appear anymore.
 
 BUILDING
 ========
