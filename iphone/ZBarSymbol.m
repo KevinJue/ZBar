@@ -145,6 +145,12 @@
     return(self);
 }
 
+-(id)copyWithZone:(NSZone *)zone
+{
+    id copy = [[[self class] alloc] initWithSymbolSet:self.zbarSymbolSet];
+    return copy;
+}
+
 - (void) dealloc
 {
     if(set) {
