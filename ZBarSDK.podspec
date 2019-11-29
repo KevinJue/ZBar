@@ -5,9 +5,12 @@ Pod::Spec.new do |s|
   s.license  = 'GNU LGPL 2.1'
   s.summary  = 'QR and barcode scan library.'
   s.homepage = 'http://zbar.sourceforge.net/'
-  s.author   = { 'Kevin Jue => 'kevin.jue@budget-box.com' }
+  s.author   = { 'Kevin Jue' => 'kevin.jue@budget-box.com' }
   s.source   = { :git => "https://github.com/KevinJue/ZBar.git", :tag => "#{s.version}" }
-
+  
+  #s.author   = { 'Jeff Brown' => 'spadix@users.sourceforge.net' }
+  #s.source   = { :hg => 'http://zbar.hg.sourceforge.net:8000/hgroot/zbar/zbar', :revision => 'iPhoneSDK-1.2.2' }
+  
   s.description  = 'ZBar is an open source software suite for reading bar codes from various sources, such as video streams, ' \
                    'image files and raw intensity sensors. It supports many popular symbologies (types of bar codes) including ' \
                    'EAN-13/UPC-A, UPC-E, EAN-8, Code 128, Code 39, Interleaved 2 of 5 and QR Code.'
